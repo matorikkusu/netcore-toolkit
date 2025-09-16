@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>Matorikkusu.Toolkit.ValidationAttributes</PackageId>
+        <PackageTags>classlibrary .net6.0 .net8.0 private validation-attributes</PackageTags>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/matorikkusu/netcore-toolkit</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/matorikkusu/netcore-toolkit</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <Copyright>2025</Copyright>
+        <Version>1.0.0</Version>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.JsonPatch" Version="6.0.36" />
+        <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.Extensions" Version="6.0.36" />
+        <PackageReference Include="Microsoft.CodeAnalysis.Razor" Version="6.0.36" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.1" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.2" />
+        <PackageReference Include="Newtonsoft.Json.Bson" Version="1.0.3" />
+    </ItemGroup>
+
+</Project>
